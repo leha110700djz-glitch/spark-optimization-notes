@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+spark-warehouse/
+metastore_db/
+.DS_Store
