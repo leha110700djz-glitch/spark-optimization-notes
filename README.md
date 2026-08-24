@@ -1,5 +1,7 @@
 # spark-optimization-notes
 
+![CI](https://github.com/leha110700djz-glitch/spark-optimization-notes/actions/workflows/ci.yml/badge.svg)
+
 Практические приёмы ускорения Spark/SQL-пайплайнов из реального опыта — с объяснением
 «почему» и примерами кода. На таких приёмах я ускорял расчёт витрин **с ~2 часов до ~45 минут**.
 
