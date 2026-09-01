@@ -1,6 +1,7 @@
 # spark-optimization-notes
 
 ![CI](https://github.com/leha110700djz-glitch/spark-optimization-notes/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Практические приёмы ускорения Spark/SQL-пайплайнов из реального опыта — с объяснением
 «почему» и примерами кода. На таких приёмах я ускорял расчёт витрин **с ~2 часов до ~45 минут**.
@@ -83,3 +84,11 @@ spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
 - [ ] Кэш только для переиспользуемых DF.
 - [ ] Включил AQE.
 - [ ] Настроил `shuffle.partitions` под объём.
+
+---
+
+## Лицензия
+MIT — см. [LICENSE](LICENSE).
+
+## Автор
+Alexey Chervak — Senior Data Engineer. Портфолио: https://github.com/leha110700djz-glitch
